@@ -96,7 +96,7 @@ public class GameController extends JPanel {
         g.fillRect(0, 0, size.width, size.height);
 
         // Отрисовка змейки
-        g.setColor(Color.GREEN);
+        g.setColor(Color.YELLOW);
         for (Point point : snake) {
             g.fillRect(point.x * SQUARE_SIZE, point.y * SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
         }
